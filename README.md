@@ -4,8 +4,7 @@
 - [Introduction](#introduction)
 - [Problem Statement](#problem-statement)
 - [Case Study Questions](#case-study-questions)
-- [Queries](#queries)
-- [Conclusion](#conclusion)
+- [Insights](#insights)
 
 ---
 
@@ -40,15 +39,18 @@ The following questions will guide our analysis:
 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier, how many points would each customer have?
 10. In the first week after a customer joins the program (including their join date), they earn 2x points on all items. How many points do customer A and B have at the end of January?
 
-## Queries
+## Insights
 
-We will develop SQL queries to extract valuable insights from the provided datasets. These queries will help answer the case study questions and provide meaningful information to assist Danny in optimizing his restaurant's operations and customer experiences.
-
-## Conclusion
-
-Through this case study, we aim to assist Danny in using data-driven insights to enhance Danny’s Diner. By understanding customer behavior, preferences, and spending patterns, Danny can make informed decisions to create a better dining experience for his customers.
-
-Feel free to explore the provided datasets and SQL queries to gain a deeper understanding of the analysis conducted in this case study.
+* Customer A, B, and C have made expenditures of $76, $74, and $36 respectively.
+* Customer A visited the resturant 4 times, Customer B visited 6 times, and Customer C visited 2 times.
+* Customer A opted for a combination of curry and sushi, Customer B selected curry, while Customer C chose ramen as their first order.
+* The menu item that has been most frequently purchased is 'ramen,' with a total of 8 orders.
+* Ramen is the preferred choice for both Customer A and Customer C, while Customer B enjoys a variety of items from the menu.
+* Customer A's first order highlighted curry, whereas Customer B's initial choice revolved around sushi when they become a member.
+* Before enrolling as members, Customer A's most recent order encompassed both sushi and curry whereas Customer B's final order consisted of sushi.
+* Prior to their membership enrollment, Customer A made a purchase of 2 items totaling $25 while Customer B's pre-membership spending amounted to $40 for 3 items.
+* Customer A has accumulated a total of 860 points, while Customer B has earned 940 points, and Customer C has a total of 360 points.
+* During the initial week following their program enrollment, entailing their join date, customers earn double points on all items, extending beyond just sushi. Consequently, by the conclusion of January, Customer A and Customer B have accumulated a respective sum of 1,270 and 720 points.
 
 ---
 *Check out the [8WeekSQLChallenge](https://8weeksqlchallenge.com/) by Danny Ma*
